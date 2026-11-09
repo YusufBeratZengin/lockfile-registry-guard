@@ -1,0 +1,55 @@
+{
+  "name": "lockfile-registry-guard",
+  "version": "0.1.0",
+  "description": "Zero-dependency CI gate that rejects lockfile entries resolving outside your approved registries (npm, Yarn, pnpm).",
+  "keywords": [
+    "security",
+    "lockfile",
+    "supply-chain-security",
+    "npm",
+    "yarn",
+    "pnpm",
+    "devsecops",
+    "ci-cd",
+    "sarif",
+    "dependency-confusion"
+  ],
+  "license": "MIT",
+  "author": "Yusuf Berat Zengin",
+  "homepage": "https://github.com/YusufBeratZengin/lockfile-registry-guard#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YusufBeratZengin/lockfile-registry-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YusufBeratZengin/lockfile-registry-guard/issues"
+  },
+  "bin": {
+    "lockfile-registry-guard": "bin/guard.js"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "README.tr.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "check": "bash scripts/check.sh",
+    "lint": "node scripts/lint.js",
+    "typecheck": "node scripts/typecheck.js",
+    "test": "node test/index.js",
+    "coverage": "node scripts/coverage.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

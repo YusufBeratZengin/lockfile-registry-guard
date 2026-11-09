@@ -1,0 +1,49 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      express:
+        specifier: ^4.18.2
+        version: 4.18.2
+      gitdep:
+        specifier: github:example/gitdep
+        version: https://codeload.github.com/example/gitdep/tar.gz/0123456789abcdef0123456789abcdef01234567
+
+packages:
+
+  '@corp/ui@2.1.0':
+    resolution: {integrity: sha512-EXAMPLE, tarball: 'https://nexus.corp.example/repository/npm/@corp/ui/-/ui-2.1.0.tgz'}
+    engines: {node: '>=18'}
+
+  express@4.18.2:
+    resolution: {integrity: sha512-EXAMPLE}
+    engines: {node: '>= 0.10.0'}
+
+  poisoned@1.0.0:
+    resolution:
+      integrity: sha512-EXAMPLE
+      tarball: 'http://registry.malicious-mirror.example/poisoned/-/poisoned-1.0.0.tgz'
+
+  '@corp/leaked@1.0.0':
+    resolution: {tarball: 'https://registry.npmjs.org/@corp/leaked/-/leaked-1.0.0.tgz'}
+
+  gitdep@0.0.0:
+    resolution: {commit: 0123456789abcdef0123456789abcdef01234567, repo: 'git+ssh://git@github.com/example/gitdep.git', type: git}
+
+  localdir@0.0.0:
+    resolution: {directory: ../localdir, type: directory}
+
+snapshots:
+
+  '@corp/ui@2.1.0': {}
+  express@4.18.2: {}
+  poisoned@1.0.0: {}
+  '@corp/leaked@1.0.0': {}
+  gitdep@0.0.0: {}
+  localdir@0.0.0: {}

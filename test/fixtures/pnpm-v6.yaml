@@ -1,0 +1,29 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  express:
+    specifier: ^4.18.2
+    version: 4.18.2
+
+packages:
+
+  /@corp/ui@2.1.0:
+    resolution: {integrity: sha512-EXAMPLE, tarball: 'https://nexus.corp.example/repository/npm/@corp/ui/-/ui-2.1.0.tgz'}
+    dev: false
+
+  /express@4.18.2:
+    resolution: {integrity: sha512-EXAMPLE}
+    dev: false
+    engines: {node: '>= 0.10.0'}
+
+  /poisoned@1.0.0:
+    resolution: {tarball: 'http://registry.malicious-mirror.example/poisoned/-/poisoned-1.0.0.tgz'}
+    dev: false
+
+  /localdir@0.0.0:
+    resolution: {directory: ../localdir, type: directory}
+    dev: false

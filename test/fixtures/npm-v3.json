@@ -1,0 +1,56 @@
+{
+  "name": "fixture-npm3",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "fixture-npm3",
+      "version": "1.0.0",
+      "dependencies": {
+        "express": "^4.18.2"
+      }
+    },
+    "node_modules/express": {
+      "version": "4.18.2",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.18.2.tgz",
+      "integrity": "sha512-EXAMPLE"
+    },
+    "node_modules/lodash": {
+      "version": "4.17.21",
+      "resolved": "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz",
+      "integrity": "sha512-EXAMPLE"
+    },
+    "node_modules/@corp/ui": {
+      "version": "2.1.0",
+      "resolved": "https://nexus.corp.example/repository/npm/@corp/ui/-/ui-2.1.0.tgz",
+      "integrity": "sha512-EXAMPLE"
+    },
+    "node_modules/poisoned": {
+      "version": "1.0.0",
+      "resolved": "http://registry.malicious-mirror.example/poisoned/-/poisoned-1.0.0.tgz",
+      "integrity": "sha512-EXAMPLE"
+    },
+    "node_modules/weird": {
+      "version": "0.0.1",
+      "resolved": "https://example.test/unknown-host/weird-0.0.1.tgz"
+    },
+    "node_modules/gitdep": {
+      "version": "1.0.0",
+      "resolved": "git+ssh://git@github.com/example/gitdep.git#0123456789abcdef0123456789abcdef01234567"
+    },
+    "node_modules/evilgit": {
+      "version": "1.0.0",
+      "resolved": "git+https://git.attacker.example/evil/repo.git#main"
+    },
+    "node_modules/linkdep": {
+      "version": "1.0.0",
+      "link": true
+    },
+    "node_modules/@corp/leaked": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/@corp/leaked/-/leaked-1.0.0.tgz",
+      "integrity": "sha512-EXAMPLE"
+    }
+  }
+}

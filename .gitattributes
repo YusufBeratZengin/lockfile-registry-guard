@@ -1,0 +1,14 @@
+# Normalize line endings so lint/format checks behave the same on every platform.
+* text=auto eol=lf
+
+# Binary files.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.parquet binary
+*.zip binary
+*.gz binary
+*.whl binary
+*.pdf binary
